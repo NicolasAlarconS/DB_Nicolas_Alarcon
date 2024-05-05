@@ -42,7 +42,25 @@ Docente: Anderson Michel Torres
 El proyecto se centra en desarrollar una base de datos ficticia que sirva como sistema de gestión integral para una empresa dedicada a la venta de productos. Esta base de datos ha sido creada en Python y el sistema de gestión de base de datos MySQL.
 
 ## Modelo de Negocio
-El modelo de negocio se basa en una estrategia de venta multicanal, donde los clientes pueden realizar pedidos a través de estos, como tiendas físicas, tiendas en línea o distribuidores externos. La empresa se enfoca en ofrecer productos de alta calidad, manteniendo un equilibrio entre el precio de venta y el costo de adquisición. La atención al cliente y la satisfacción del mismo son pilares fundamentales en la estrategia empresarial.
+La empresa opera bajo un modelo de negocio de venta multicanal, donde se prioriza la calidad de los productos y la atención personalizada al cliente. A continuación, se describe cómo cada aspecto de la operación se refleja en la base de datos:
+
+-Conexión con los Clientes:
+La importancia de establecer relaciones sólidas con los clientes es fundamental. Valoramos la atención personalizada y la satisfacción del cliente como principios fundamentales de nuestro modelo de negocio. Se reconoce la relevancia de comprender las necesidades y preferencias de los clientes para personalizar sus experiencias de compra. La base de datos almacena información detallada sobre cada cliente, incluyendo su historial de compras y detalles de contacto, con el objetivo de brindar un servicio excepcional y construir lealtad a largo plazo.
+
+-Diversidad y Calidad de Productos:
+Ofrecer una amplia gama de productos de alta calidad es esencial para satisfacer las necesidades de los clientes. La base de datos gestiona información detallada sobre cada producto, desde su descripción hasta su precio y costo. Esto permite una gestión eficaz del inventario y garantiza una oferta diversa y competitiva que se adapta a las preferencias de los clientes.
+
+-Colaboradores Comprometidos:
+Se valora el compromiso y la dedicación de los empleados para brindar un servicio excepcional a los clientes. La base de datos registra información sobre cada empleado, incluyendo su cargo, salario y departamento. Esto facilita una gestión eficaz de los recursos humanos y promueve un ambiente laboral positivo y productivo.
+
+-Maximización de las Ventas:
+Maximizar las ventas es crucial para asegurar la viabilidad financiera del negocio. La base de datos registra cada transacción realizada por la empresa, lo que permite analizar tendencias, identificar oportunidades de crecimiento y tomar decisiones informadas para mejorar el desempeño comercial y satisfacer las necesidades de los clientes.
+
+-Relaciones con los Proveedores:
+Las relaciones con los proveedores son fundamentales para garantizar la calidad y disponibilidad de los productos. La base de datos gestiona estas relaciones de manera efectiva, registrando información sobre cada proveedor y facilitando la comunicación y colaboración en la búsqueda de productos de alta calidad a precios competitivos.
+
+-Eficiencia en la Gestión de Pedidos:
+Gestionar eficientemente los pedidos es esencial para brindar una experiencia de compra sin problemas a los clientes. La base de datos almacena información detallada sobre cada pedido realizado, lo que permite gestionar eficazmente el flujo de pedidos, coordinar la entrega de productos y brindar un servicio excepcional a los clientes.
 
 ## Listado de tablas y descripcion
 - Clientes: Almacena datos de los clientes que realizan compras en la empresa, como su nombre, apellido, país de residencia, dirección y correo electrónico. Esta tabla permite mantener un registro de los clientes y proporcionar un servicio personalizado.
@@ -178,7 +196,8 @@ El modelo de negocio se basa en una estrategia de venta multicanal, donde los cl
    - Claves Foráneas: ID_Cliente (referencia a la tabla Clientes), ID_Producto (referencia a la tabla Productos), ID_Canal (referencia a la tabla Canales), ID_Venta (referencia a la tabla Ventas)
 
 ## Estructura e ingesta de datos
-La base de datos ficticia se ha diseñado utilizando Python para generar el esquema de la base de datos y las tablas necesarias. Además, se han creado archivos CSV de muestra para poblar las tablas con datos iniciales. Estos archivos CSV han sido generados también mediante scripts en Python.
+La base de datos ficticia se ha diseñado utilizando Python para generar el esquema de la base de datos y las tablas necesarias. Además, se han creado archivos CSV de muestra para poblar las tablas con datos iniciales. Estos archivos CSV han sido generados también mediante scripts en Python. 
+La BD se arma mediante el archivo database_sctructure
 
 ## Objetos de la base de datos
 Los objetos de la base de datos incluyen las tablas mencionadas anteriormente, así como restricciones de clave externa que garantizan la integridad referencial entre las tablas. Estas restricciones aseguran que no se puedan realizar operaciones que violen las relaciones definidas entre las entidades, manteniendo la consistencia de los datos en todo momento.
