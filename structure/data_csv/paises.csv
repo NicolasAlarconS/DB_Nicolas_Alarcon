@@ -1,0 +1,185 @@
+ID País,Nombre,Zona
+PA001,United Kingdom,Europa
+PA002,Malta,Europa
+PA003,Marshall Islands,Australia y Oceanía
+PA004,Iran,África
+PA005,Guatemala,Centroamérica y Caribe
+PA006,Grenada,Centroamérica y Caribe
+PA007,Fiji,Australia y Oceanía
+PA008,Tunisia,África
+PA009,Australia,Australia y Oceanía
+PA0010,Greenland,Norteamérica
+PA0011,Angola,África
+PA0012,Zambia,África
+PA0013,Kenya,África
+PA0014,Azerbaijan,África
+PA0015,Mozambique,África
+PA0016,Federated States of Micronesia,Australia y Oceanía
+PA0017,Dominican Republic,Centroamérica y Caribe
+PA0018,Libya,África
+PA0019,Uzbekistan,Asia
+PA0020,Sri Lanka,Asia
+PA0021,The Gambia,África
+PA0022,Myanmar,Asia
+PA0023,Bhutan,Asia
+PA0024,Mali,África
+PA0025,Burundi,África
+PA0026,Nigeria,África
+PA0027,Norway,Europa
+PA0028,Papua New Guinea,Australia y Oceanía
+PA0029,North Korea,Asia
+PA0030,Montenegro,Europa
+PA0031,Lesotho,África
+PA0032,Indonesia,Asia
+PA0033,Iraq,África
+PA0034,Singapore,Asia
+PA0035,South Korea,Asia
+PA0036,Lebanon,África
+PA0037,Vietnam,Asia
+PA0038,Jordan,África
+PA0039,Palau,Australia y Oceanía
+PA0040,Antigua and Barbuda,Centroamérica y Caribe
+PA0041,El Salvador,Centroamérica y Caribe
+PA0042,Republic of the Congo,África
+PA0043,Vanuatu,Australia y Oceanía
+PA0044,Bangladesh,Asia
+PA0045,South Sudan,África
+PA0046,Saint Kitts and Nevis,Centroamérica y Caribe
+PA0047,Rwanda,África
+PA0048,Moldova,Europa
+PA0049,Austria,Europa
+PA0050,Spain,Europa
+PA0051,China,Asia
+PA0052,Qatar,África
+PA0053,Georgia,Europa
+PA0054,Kazakhstan,Asia
+PA0055,Namibia,África
+PA0056,Jamaica,Centroamérica y Caribe
+PA0057,Syria,África
+PA0058,Tanzania,África
+PA0059,Hungary,Europa
+PA0060,Thailand,Asia
+PA0061,Taiwan,Asia
+PA0062,India,Asia
+PA0063,Romania,Europa
+PA0064,East Timor,Australia y Oceanía
+PA0065,Bosnia and Herzegovina,Europa
+PA0066,Ireland,Europa
+PA0067,Croatia,Europa
+PA0068,Madagascar,África
+PA0069,Sierra Leone,África
+PA0070,Netherlands,Europa
+PA0071,Trinidad and Tobago,Centroamérica y Caribe
+PA0072,Samoa,Australia y Oceanía
+PA0073,Albania,Europa
+PA0074,Cape Verde,África
+PA0075,Italy,Europa
+PA0076,Maldives,Asia
+PA0077,Yemen,África
+PA0078,Latvia,Europa
+PA0079,Lithuania,Europa
+PA0080,Senegal,África
+PA0081,Bulgaria,Europa
+PA0082,Seychelles,África
+PA0083,Saint Vincent and the Grenadines,Centroamérica y Caribe
+PA0084,Andorra,Europa
+PA0085,Togo,África
+PA0086,Japan,Asia
+PA0087,Central African Republic,África
+PA0088,Mauritania,África
+PA0089,Portugal,Europa
+PA0090,Liberia,África
+PA0091,Cameroon,África
+PA0092,Cuba,Centroamérica y Caribe
+PA0093,Malawi,África
+PA0094,Tuvalu,Australia y Oceanía
+PA0095,Turkmenistan,Asia
+PA0096,Uganda,África
+PA0097,Switzerland,Europa
+PA0098,Kuwait,África
+PA0099,Ghana,África
+PA00100,Poland,Europa
+PA00101,Mongolia,Asia
+PA00102,Ethiopia,África
+PA00103,Niger,África
+PA00104,United States of America,Norteamérica
+PA00105,Sudan,África
+PA00106,Bahrain,África
+PA00107,Algeria,África
+PA00108,Botswana,África
+PA00109,Guinea-Bissau,África
+PA00110,Pakistan,África
+PA00111,Afghanistan,África
+PA00112,Oman,África
+PA00113,Burkina Faso,África
+PA00114,Serbia,Europa
+PA00115,Mauritius,África
+PA00116,New Zealand,Australia y Oceanía
+PA00117,Somalia,África
+PA00118,Cyprus,Europa
+PA00119,The Bahamas,Centroamérica y Caribe
+PA00120,Germany,Europa
+PA00121,Luxembourg,Europa
+PA00122,Solomon Islands,Australia y Oceanía
+PA00123,Cote d'Ivoire,África
+PA00124,Russia,Europa
+PA00125,Laos,Asia
+PA00126,Sweden,Europa
+PA00127,Kiribati,Australia y Oceanía
+PA00128,Philippines,Asia
+PA00129,Comoros,África
+PA00130,Liechtenstein,Europa
+PA00131,Chad,África
+PA00132,Macedonia,Europa
+PA00133,United Arab Emirates,África
+PA00134,Kosovo,Europa
+PA00135,Mexico,Norteamérica
+PA00136,Egypt,África
+PA00137,Swaziland,África
+PA00138,Brunei,Asia
+PA00139,Democratic Republic of the Congo,África
+PA00140,Tonga,Australia y Oceanía
+PA00141,Malaysia,Asia
+PA00142,Costa Rica,Centroamérica y Caribe
+PA00143,Nepal,Asia
+PA00144,Tajikistan,Asia
+PA00145,Iceland,Europa
+PA00146,Czech Republic,Europa
+PA00147,Saudi Arabia,África
+PA00148,Turkey,África
+PA00149,Eritrea,África
+PA00150,Greece,Europa
+PA00151,Benin,África
+PA00152,Honduras,Centroamérica y Caribe
+PA00153,Morocco,África
+PA00154,Estonia,Europa
+PA00155,Canada,Norteamérica
+PA00156,Belize,Centroamérica y Caribe
+PA00157,Nicaragua,Centroamérica y Caribe
+PA00158,Monaco,Europa
+PA00159,Barbados,Centroamérica y Caribe
+PA00160,Haiti,Centroamérica y Caribe
+PA00161,Armenia,Europa
+PA00162,Panama,Centroamérica y Caribe
+PA00163,Israel,África
+PA00164,France,Europa
+PA00165,Slovakia,Europa
+PA00166,Nauru,Australia y Oceanía
+PA00167,Ukraine,Europa
+PA00168,Sao Tome and Principe,África
+PA00169,Saint Lucia,Centroamérica y Caribe
+PA00170,Slovenia,Europa
+PA00171,Belarus,Europa
+PA00172,San Marino,Europa
+PA00173,Kyrgyzstan,Asia
+PA00174,South Africa,África
+PA00175,Dominica,Centroamérica y Caribe
+PA00176,Guinea,África
+PA00177,Gabon,África
+PA00178,Equatorial Guinea,África
+PA00179,Belgium,Europa
+PA00180,Finland,Europa
+PA00181,Zimbabwe,África
+PA00182,Cambodia,Asia
+PA00183,Vatican City,Europa
+PA00184,Djibouti,África
