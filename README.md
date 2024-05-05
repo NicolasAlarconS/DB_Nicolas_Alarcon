@@ -178,14 +178,17 @@ El modelo de negocio se basa en una estrategia de venta multicanal, donde los cl
    - Claves Foráneas: ID_Cliente (referencia a la tabla Clientes), ID_Producto (referencia a la tabla Productos), ID_Canal (referencia a la tabla Canales), ID_Venta (referencia a la tabla Ventas)
 
 ## Estructura e ingesta de datos
+La base de datos ficticia se ha diseñado utilizando Python para generar el esquema de la base de datos y las tablas necesarias. Además, se han creado archivos CSV de muestra para poblar las tablas con datos iniciales. Estos archivos CSV han sido generados también mediante scripts en Python.
 
 ## Objetos de la base de datos
+Los objetos de la base de datos incluyen las tablas mencionadas anteriormente, así como restricciones de clave externa que garantizan la integridad referencial entre las tablas. Estas restricciones aseguran que no se puedan realizar operaciones que violen las relaciones definidas entre las entidades, manteniendo la consistencia de los datos en todo momento.
 
 ## Roles y permisos
 
 ## Back up de la base de datos
 
 ## Herramientas y tecnologias usadas
+Para el desarrollo de la base de datos ficticia, se ha utilizado Python para generar el esquema de la base de datos, así como para crear los archivos CSV de muestra. MySQL se ha empleado como sistema de gestión de base de datos para almacenar y administrar la información.
 
 ## Como levantar el proyecto en CodeSpaces GitHub
 * env: Archivo con contraseñas y data secretas
