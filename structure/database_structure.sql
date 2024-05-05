@@ -86,6 +86,14 @@ CREATE TABLE Clientes (
     Correo VARCHAR(100)
 );
 
+-- Tabla de auditoria
+CREATE TABLE audit_table (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    action VARCHAR(10) NOT NULL,
+    user VARCHAR(50) NOT NULL,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
 -- Agregar restricciones de clave externa utilizando ALTER TABLE
 
 -- Para la tabla Pedidos
