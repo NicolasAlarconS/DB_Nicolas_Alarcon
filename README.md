@@ -4,15 +4,11 @@
 
 
 # <center>Entrega de proyecto final</center>
-@Alumno
-
-@Comision
-
-@Tutor
-
-@Docente
-
-
+ALumno: Nicolas Alarcon Sanhueza
+Curso: SQL
+Comision: 53175
+Tutor: Jonatan Canchi
+Docente: Anderson Michel Torres
 
 ---
 
@@ -41,11 +37,13 @@
 ---
 [DOCUMENTACION DEL PROYECTO DE NICO](https://docs.google.com/document/d/e/2PACX-1vQbTCHeRc68O5-HIlHXh6vNvPgEsNsiQ6BrKVJ8XFnBNKb71qvuDYO1PfXoIWLpzAYaeovm0MuXJSyA/pub)
 
-## Tematica del proyecto
+Temática del Proyecto
+El proyecto se centra en desarrollar una base de datos ficticia que sirva como sistema de gestión integral para una empresa dedicada a la venta de productos. Esta base de datos ha sido creada por el usuario utilizando Python y el sistema de gestión de base de datos MySQL.
 
-## Modelo de negocio
+Modelo de Negocio
+El modelo de negocio se basa en una estrategia de venta multicanal, donde los clientes pueden realizar pedidos a través de diversos canales como tiendas físicas, tiendas en línea o distribuidores externos. La empresa se enfoca en ofrecer productos de alta calidad, manteniendo un equilibrio entre el precio de venta y el costo de adquisición. La atención al cliente y la satisfacción del mismo son pilares fundamentales en la estrategia empresarial.
 
-## Diagrama entidad relacion (DER)
+
 
 ## Listado de tablas y descripcion
 
