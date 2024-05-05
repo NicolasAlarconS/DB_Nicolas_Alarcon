@@ -1,0 +1,185 @@
+ID Pais%Nombre%Zona
+PA001%United Kingdom%Europa
+PA002%Malta%Europa
+PA003%Marshall Islands%Australia y Oceania
+PA004%Iran%Africa
+PA005%Guatemala%Centroamerica y Caribe
+PA006%Grenada%Centroamerica y Caribe
+PA007%Fiji%Australia y Oceania
+PA008%Tunisia%Africa
+PA009%Australia%Australia y Oceania
+PA0010%Greenland%Norteamerica
+PA0011%Angola%Africa
+PA0012%Zambia%Africa
+PA0013%Kenya%Africa
+PA0014%Azerbaijan%Africa
+PA0015%Mozambique%Africa
+PA0016%Federated States of Micronesia%Australia y Oceania
+PA0017%Dominican Republic%Centroamerica y Caribe
+PA0018%Libya%Africa
+PA0019%Uzbekistan%Asia
+PA0020%Sri Lanka%Asia
+PA0021%The Gambia%Africa
+PA0022%Myanmar%Asia
+PA0023%Bhutan%Asia
+PA0024%Mali%Africa
+PA0025%Burundi%Africa
+PA0026%Nigeria%Africa
+PA0027%Norway%Europa
+PA0028%Papua New Guinea%Australia y Oceania
+PA0029%North Korea%Asia
+PA0030%Montenegro%Europa
+PA0031%Lesotho%Africa
+PA0032%Indonesia%Asia
+PA0033%Iraq%Africa
+PA0034%Singapore%Asia
+PA0035%South Korea%Asia
+PA0036%Lebanon%Africa
+PA0037%Vietnam%Asia
+PA0038%Jordan%Africa
+PA0039%Palau%Australia y Oceania
+PA0040%Antigua and Barbuda%Centroamerica y Caribe
+PA0041%El Salvador%Centroamerica y Caribe
+PA0042%Republic of the Congo%Africa
+PA0043%Vanuatu%Australia y Oceania
+PA0044%Bangladesh%Asia
+PA0045%South Sudan%Africa
+PA0046%Saint Kitts and Nevis%Centroamerica y Caribe
+PA0047%Rwanda%Africa
+PA0048%Moldova%Europa
+PA0049%Austria%Europa
+PA0050%Spain%Europa
+PA0051%China%Asia
+PA0052%Qatar%Africa
+PA0053%Georgia%Europa
+PA0054%Kazakhstan%Asia
+PA0055%Namibia%Africa
+PA0056%Jamaica%Centroamerica y Caribe
+PA0057%Syria%Africa
+PA0058%Tanzania%Africa
+PA0059%Hungary%Europa
+PA0060%Thailand%Asia
+PA0061%Taiwan%Asia
+PA0062%India%Asia
+PA0063%Romania%Europa
+PA0064%East Timor%Australia y Oceania
+PA0065%Bosnia and Herzegovina%Europa
+PA0066%Ireland%Europa
+PA0067%Croatia%Europa
+PA0068%Madagascar%Africa
+PA0069%Sierra Leone%Africa
+PA0070%Netherlands%Europa
+PA0071%Trinidad and Tobago%Centroamerica y Caribe
+PA0072%Samoa%Australia y Oceania
+PA0073%Albania%Europa
+PA0074%Cape Verde%Africa
+PA0075%Italy%Europa
+PA0076%Maldives%Asia
+PA0077%Yemen%Africa
+PA0078%Latvia%Europa
+PA0079%Lithuania%Europa
+PA0080%Senegal%Africa
+PA0081%Bulgaria%Europa
+PA0082%Seychelles%Africa
+PA0083%Saint Vincent and the Grenadines%Centroamerica y Caribe
+PA0084%Andorra%Europa
+PA0085%Togo%Africa
+PA0086%Japan%Asia
+PA0087%Central African Republic%Africa
+PA0088%Mauritania%Africa
+PA0089%Portugal%Europa
+PA0090%Liberia%Africa
+PA0091%Cameroon%Africa
+PA0092%Cuba%Centroamerica y Caribe
+PA0093%Malawi%Africa
+PA0094%Tuvalu%Australia y Oceania
+PA0095%Turkmenistan%Asia
+PA0096%Uganda%Africa
+PA0097%Switzerland%Europa
+PA0098%Kuwait%Africa
+PA0099%Ghana%Africa
+PA00100%Poland%Europa
+PA00101%Mongolia%Asia
+PA00102%Ethiopia%Africa
+PA00103%Niger%Africa
+PA00104%United States of America%Norteamerica
+PA00105%Sudan%Africa
+PA00106%Bahrain%Africa
+PA00107%Algeria%Africa
+PA00108%Botswana%Africa
+PA00109%Guinea-Bissau%Africa
+PA00110%Pakistan%Africa
+PA00111%Afghanistan%Africa
+PA00112%Oman%Africa
+PA00113%Burkina Faso%Africa
+PA00114%Serbia%Europa
+PA00115%Mauritius%Africa
+PA00116%New Zealand%Australia y Oceania
+PA00117%Somalia%Africa
+PA00118%Cyprus%Europa
+PA00119%The Bahamas%Centroamerica y Caribe
+PA00120%Germany%Europa
+PA00121%Luxembourg%Europa
+PA00122%Solomon Islands%Australia y Oceania
+PA00123%Cote d'Ivoire%Africa
+PA00124%Russia%Europa
+PA00125%Laos%Asia
+PA00126%Sweden%Europa
+PA00127%Kiribati%Australia y Oceania
+PA00128%Philippines%Asia
+PA00129%Comoros%Africa
+PA00130%Liechtenstein%Europa
+PA00131%Chad%Africa
+PA00132%Macedonia%Europa
+PA00133%United Arab Emirates%Africa
+PA00134%Kosovo%Europa
+PA00135%Mexico%Norteamerica
+PA00136%Egypt%Africa
+PA00137%Swaziland%Africa
+PA00138%Brunei%Asia
+PA00139%Democratic Republic of the Congo%Africa
+PA00140%Tonga%Australia y Oceania
+PA00141%Malaysia%Asia
+PA00142%Costa Rica%Centroamerica y Caribe
+PA00143%Nepal%Asia
+PA00144%Tajikistan%Asia
+PA00145%Iceland%Europa
+PA00146%Czech Republic%Europa
+PA00147%Saudi Arabia%Africa
+PA00148%Turkey%Africa
+PA00149%Eritrea%Africa
+PA00150%Greece%Europa
+PA00151%Benin%Africa
+PA00152%Honduras%Centroamerica y Caribe
+PA00153%Morocco%Africa
+PA00154%Estonia%Europa
+PA00155%Canada%Norteamerica
+PA00156%Belize%Centroamerica y Caribe
+PA00157%Nicaragua%Centroamerica y Caribe
+PA00158%Monaco%Europa
+PA00159%Barbados%Centroamerica y Caribe
+PA00160%Haiti%Centroamerica y Caribe
+PA00161%Armenia%Europa
+PA00162%Panama%Centroamerica y Caribe
+PA00163%Israel%Africa
+PA00164%France%Europa
+PA00165%Slovakia%Europa
+PA00166%Nauru%Australia y Oceania
+PA00167%Ukraine%Europa
+PA00168%Sao Tome and Principe%Africa
+PA00169%Saint Lucia%Centroamerica y Caribe
+PA00170%Slovenia%Europa
+PA00171%Belarus%Europa
+PA00172%San Marino%Europa
+PA00173%Kyrgyzstan%Asia
+PA00174%South Africa%Africa
+PA00175%Dominica%Centroamerica y Caribe
+PA00176%Guinea%Africa
+PA00177%Gabon%Africa
+PA00178%Equatorial Guinea%Africa
+PA00179%Belgium%Europa
+PA00180%Finland%Europa
+PA00181%Zimbabwe%Africa
+PA00182%Cambodia%Asia
+PA00183%Vatican City%Europa
+PA00184%Djibouti%Africa
