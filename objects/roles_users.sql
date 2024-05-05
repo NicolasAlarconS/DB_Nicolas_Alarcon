@@ -1,3 +1,6 @@
+-- Usar la base de datos creada
+USE DB_NicolasAlarcon;
+
 -- Crear usuarios y asignar permisos
 CREATE USER 'usuario_admin'@'localhost' IDENTIFIED BY 'contraseña_admin';
 GRANT ALL PRIVILEGES ON *.* TO 'usuario_admin'@'localhost' WITH GRANT OPTION;
