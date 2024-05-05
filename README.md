@@ -42,15 +42,83 @@ Docente: Anderson Michel Torres
 [DOCUMENTACION DEL PROYECTO DE NICO](https://docs.google.com/document/d/e/2PACX-1vQbTCHeRc68O5-HIlHXh6vNvPgEsNsiQ6BrKVJ8XFnBNKb71qvuDYO1PfXoIWLpzAYaeovm0MuXJSyA/pub)
 
 ## Temática del Proyecto
-El proyecto se centra en desarrollar una base de datos ficticia que sirva como sistema de gestión integral para una empresa dedicada a la venta de productos. Esta base de datos ha sido creada por el usuario utilizando Python y el sistema de gestión de base de datos MySQL.
+El proyecto se centra en desarrollar una base de datos ficticia que sirva como sistema de gestión integral para una empresa dedicada a la venta de productos. Esta base de datos ha sido creada en Python y el sistema de gestión de base de datos MySQL.
 
 ## Modelo de Negocio
-El modelo de negocio se basa en una estrategia de venta multicanal, donde los clientes pueden realizar pedidos a través de diversos canales como tiendas físicas, tiendas en línea o distribuidores externos. La empresa se enfoca en ofrecer productos de alta calidad, manteniendo un equilibrio entre el precio de venta y el costo de adquisición. La atención al cliente y la satisfacción del mismo son pilares fundamentales en la estrategia empresarial.
-
-
+El modelo de negocio se basa en una estrategia de venta multicanal, donde los clientes pueden realizar pedidos a través de estos, como tiendas físicas, tiendas en línea o distribuidores externos. La empresa se enfoca en ofrecer productos de alta calidad, manteniendo un equilibrio entre el precio de venta y el costo de adquisición. La atención al cliente y la satisfacción del mismo son pilares fundamentales en la estrategia empresarial.
 
 ## Listado de tablas y descripcion
+Pedidos: Esta tabla almacena información detallada sobre los pedidos realizados por los clientes. Cada registro incluye datos como el identificador único del pedido, el cliente que realizó el pedido, el producto solicitado, la cantidad, las fechas de pedido y envío, la prioridad del pedido y el canal de venta utilizado.
+Productos: Contiene información sobre los productos disponibles para la venta, incluyendo su nombre, descripción, precio unitario y costo unitario. Esta tabla permite gestionar el inventario y conocer los detalles específicos de cada producto.
+Paises: Registra los países presentes en la base de datos, junto con su respectiva zona geográfica. Esta tabla proporciona información contextual sobre la ubicación de los clientes, proveedores y otros elementos del negocio.
+Canales: Define los distintos canales de distribución utilizados para vender los productos. Cada canal tiene un nombre único y puede representar una tienda física, una plataforma en línea, un distribuidor externo, entre otros.
+Ventas: Almacena información sobre las ventas realizadas por la empresa. Cada registro incluye datos como el identificador único de la venta, el empleado responsable de la venta, la venta bruta (monto total de la venta) y la venta neta (monto total después de descuentos u otros ajustes).
+Empleados: Contiene información sobre los empleados de la empresa, incluyendo su nombre, apellido, departamento al que pertenecen y salario. Esta tabla facilita la gestión del personal y la asignación de responsabilidades dentro de la organización.
+Departamentos: Registra los distintos departamentos de la empresa, junto con su ubicación y presupuesto asignado. Esta tabla permite organizar y estructurar la empresa en función de sus diferentes áreas de trabajo.
+Proveedores: Contiene información sobre los proveedores de los productos vendidos por la empresa. Cada proveedor tiene un identificador único, nombre, país de origen, dirección y correo electrónico.
+Clientes: 
 
+Clientes:• Almacena datos de los clientes que realizan compras en la empresa, como su nombre, apellido, país de residencia, dirección y correo electrónico. Esta tabla permite mantener un registro de los clientes y proporcionar un servicio personalizado.• Campos:
+ID_Cliente (VARCHAR): Identificador único del cliente.
+Nombre (NVARCHAR): Nombre del cliente.
+Apellido (NVARCHAR): Apellido del cliente.
+ID_Pais (VARCHAR): Identificador del país del cliente (clave foránea).
+Dirección (NVARCHAR): Dirección del cliente.
+Correo (NVARCHAR): Correo electrónico del cliente.
+• Claves Primarias: ID_Cliente• Claves Foráneas: ID_Pais (referencia a la tabla Paises)
+Productos:• Descripción: Contiene información sobre los productos disponibles para la venta.• Campos:
+ID_Producto (VARCHAR): Identificador único del producto.
+Nombre (NVARCHAR): Nombre del producto.
+Descripción (NVARCHAR): Descripción del producto.
+Precio_Unitario (DECIMAL): Precio unitario del producto.
+Costo_Unitario (DECIMAL): Costo unitario del producto.
+• Claves Primarias: ID_Producto
+Paises:• Descripción: Registra los países presentes en la base de datos, junto con su respectiva zona geográfica.• Campos:
+ID_Pais (VARCHAR): Identificador único del país.
+Nombre (NVARCHAR): Nombre del país.
+Zona (NVARCHAR): Zona geográfica del país.
+• Claves Primarias: ID_Pais
+Canales:• Descripción: Define los distintos canales de distribución utilizados para vender los productos.• Campos:
+ID_Canal (VARCHAR): Identificador único del canal.
+Nombre (NVARCHAR): Nombre del canal.
+• Claves Primarias: ID_Canal
+Ventas:• Descripción: Almacena información sobre las ventas realizadas por la empresa.• Campos:
+ID_Venta (VARCHAR): Identificador único de la venta.
+ID_Empleado (VARCHAR): Identificador del empleado responsable de la venta.
+Venta_Bruta (DECIMAL): Monto total de la venta antes de descuentos u otros ajustes.
+Venta_Neta (DECIMAL): Monto total de la venta después de descuentos u otros ajustes.
+• Claves Primarias: ID_Venta• Claves Foráneas: ID_Empleado (referencia a la tabla Empleados)
+Empleados:• Descripción: Contiene información sobre los empleados de la empresa.• Campos:
+ID_Empleado (VARCHAR): Identificador único del empleado.
+Nombre (NVARCHAR): Nombre del empleado.
+Apellido (NVARCHAR): Apellido del empleado.
+ID_Departamento (VARCHAR): Identificador del departamento al que pertenece el empleado (clave foránea).
+Salario (DECIMAL): Salario del empleado.
+• Claves Primarias: ID_Empleado• Claves Foráneas: ID_Departamento (referencia a la tabla Departamentos)
+Departamentos:• Descripción: Registra los distintos departamentos de la empresa.• Campos:
+ID_Departamento (VARCHAR): Identificador único del departamento.
+Nombre (NVARCHAR): Nombre del departamento.
+Ubicación (NVARCHAR): Ubicación del departamento.
+Presupuesto (DECIMAL): Presupuesto asignado al departamento.
+• Claves Primarias: ID_Departamento
+Proveedores:• Descripción: Contiene información sobre los proveedores de los productos vendidos por la empresa.• Campos:
+ID_Proveedor (VARCHAR): Identificador único del proveedor.
+Nombre (NVARCHAR): Nombre del proveedor.
+ID_Pais (VARCHAR): Identificador del país del proveedor (clave foránea).
+Dirección (NVARCHAR): Dirección del proveedor.
+Correo (NVARCHAR): Correo electrónico del proveedor.
+• Claves Primarias: ID_Proveedor• Claves Foráneas: ID_Pais (referencia a la tabla Paises)
+Pedidos:• Descripción: Almacena información detallada sobre los pedidos realizados por los clientes.• Campos:
+ID_Pedido (VARCHAR): Identificador único del pedido.
+ID_Cliente (VARCHAR): Identificador del cliente que realizó el pedido (clave foránea).
+ID_Producto (VARCHAR): Identificador del producto solicitado en el pedido (clave foránea).
+Unidades (INT): Cantidad de productos pedidos.
+Fecha_Pedido (DATE): Fecha en que se realizó el pedido.
+Fecha_Envío (DATE): Fecha en que se envió el pedido.
+Prioridad (VARCHAR): Prioridad del pedido.
+ID_Canal (VARCHAR): Identificador del canal de venta utilizado para el pedido (clave foránea).
+ID_Venta (VARCHAR): Identificador de la venta asociada al pedido (clave foránea).
+• Claves Primarias: ID_Pedido• Claves Foráneas: ID_Cliente (referencia a la tabla Clientes), ID_Producto (referencia a la tabla Productos), ID_Canal (referencia a la tabla Canales), ID_Venta (referencia a la tabla Ventas)
 ## Estructura e ingesta de datos
 
 ## Objetos de la base de datos
