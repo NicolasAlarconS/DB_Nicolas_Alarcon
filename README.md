@@ -638,7 +638,89 @@ El codigo de python generador de los distintos csv es el siguente:
 ## Objetos de la base de datos
 Los objetos de la base de datos incluyen las tablas mencionadas anteriormente, así como restricciones de clave externa que garantizan la integridad referencial entre las tablas. Estas restricciones aseguran que no se puedan realizar operaciones que violen las relaciones definidas entre las entidades, manteniendo la consistencia de los datos en todo momento.
 
+- Vistas:
+   - vista_ingresos_totales_por_anio:
+      - Propósito: Esta vista proporciona una visión general de los ingresos totales por año.
+      - Columnas: Año, Número de transacciones, Venta bruta total, Venta neta total.
+        
+   - vista_ingresos_totales_por_pais:
+      - Propósito: Ofrece una visión de los ingresos totales por país, incluyendo el número de transacciones, la venta bruta y neta totales, así como el porcentaje de participación de cada país en los ingresos totales.
+      - Columnas: ID del país, País, Número de transacciones, Venta bruta total, Venta neta total, Porcentaje de participación.
+        
+   - vista_clientes_mas_frecuentes:
+      - Propósito: Muestra los clientes más frecuentes según el número de pedidos realizados.
+      - Columnas: ID del cliente, Total de pedidos.
+        
+   - vista_productos_mas_vendidos:
+      - Propósito: Presenta una lista de los productos más vendidos, ordenados por el total de unidades vendidas.
+      - Columnas: ID del producto, Producto, Total de unidades vendidas.
+        
+   - vista_ventas_por_canal:
+      - Propósito: Detalla las ventas realizadas por cada canal de venta, incluyendo el número de transacciones, la venta bruta y neta totales, y el porcentaje de participación de cada canal en las ventas totales.
+      - Columnas: Canal de venta, Número de transacciones, Venta bruta total, Venta neta total, Porcentaje de participación.
+        
+   - vista_ventas_por_prioridad_envio:
+      - Propósito: Ofrece una vista de las ventas agrupadas por la prioridad de envío, incluyendo el número de transacciones y los totales de venta bruta y neta.
+      - Columnas: Prioridad, Número de transacciones, Venta bruta total, Venta neta total.
+     
+- Procedimientos:
+   - AgregarCliente:
+      - Propósito: Permite agregar un nuevo cliente a la base de datos, verificando si ya existe antes de la inserción.
+      - Parámetros: Nombre, Apellido, ID del país, Dirección, Correo.
+        
+   - AgregarProducto:
+      - Propósito: Facilita la inserción de un nuevo producto en la base de datos, verificando si ya existe antes de la inserción.
+      - Parámetros: Nombre, Descripción, Precio unitario, Costo unitario.
+        
+   - CalcularMetricasVentas:
+      - Propósito: Calcula diversas métricas de ventas, incluyendo el número de transacciones, el promedio de venta por transacción, la venta bruta y neta totales, y el porcentaje de participación en las ventas totales.
+        
+   - TotalVentasPorEmpleado:
+      - Propósito: Calcula el total de ventas realizadas por cada empleado.
+        
+   - HistorialComprasCliente:
+      - Propósito: Proporciona el historial de compras de un cliente específico, mostrando los detalles de cada pedido realizado por ese cliente.
+      - Parámetro: ID del cliente.
+       
+- Triggers:
+   - Triggers de auditoría:
+      - Propósito: Registran eventos de inserción, actualización y eliminación en las tablas de Clientes, Productos y Pedidos en una tabla de auditoría.
+      - Detalles: Los triggers registran información sobre la acción realizada, la descripción del evento, el usuario que realizó la acción y la marca de tiempo.
+        
+- Funciones:
+   - obtener_nombre_completo_empleado:
+      - Propósito: Retorna el nombre completo de un empleado dado su ID.
+        
+   - calcular_salario_anual_empleado:
+      - Propósito: Calcula el salario anual de un empleado basado en su ID.
+        
+   - obtener_departamento_empleado:
+      - Propósito: Obtiene el departamento al que pertenece un empleado utilizando su ID.
+        
 ## Roles y permisos
+- usuario_admin
+   - Rol: Administrador
+   - Permisos: Todos los privilegios en todas las bases de datos (*.*) con opción de otorgar (WITH GRANT OPTION).
+
+- usuario_lectura
+   - Rol: Lectura
+   - Permisos: Permiso de lectura (SELECT) en todas las tablas de la base de datos basededatos.
+
+- usuario_sin_privilegios
+   - Rol: Usuario sin privilegios
+   - Permisos: No se le otorgaron permisos explícitos.
+
+- usuario_clientes
+   - Rol: Usuario de clientes
+   - Permisos: Permiso de lectura, inserción, actualización y eliminación (SELECT, INSERT, UPDATE, DELETE) en la tabla Clientes de la base de datos basededatos.
+
+- usuario_productos
+   - Rol: Usuario de productos
+   - Permisos: Permiso de lectura (SELECT) en la tabla Productos de la base de datos basededatos.
+
+- usuario_ventas
+   - Rol: Usuario de ventas
+   - Permisos: Permiso de lectura (SELECT) en la tabla Ventas de la base de datos basededatos
 
 ## Back up de la base de datos
 
@@ -651,7 +733,6 @@ Para el desarrollo de la base de datos ficticia, se ha utilizado Python para gen
 * docker-compose.yml: Permite generar las bases de datos en forma de contenedores
 
 #### Pasos para arrancar el proyecto
-
 
 * En la terminal de linux escribir :
     - `make` _si te da un error de que no conexion al socket, volver al correr el comando `make`_
