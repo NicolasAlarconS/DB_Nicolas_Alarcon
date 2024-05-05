@@ -1,5 +1,7 @@
-USE Projecto_Nicolas;
+-- Usar la base de datos creada
+USE DB_NicolasAlarcon;
 
+-- Procedimiento para agregar clientes
 DELIMITER //
 
 CREATE PROCEDURE AgregarCliente(
