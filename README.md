@@ -4,11 +4,11 @@
 
 
 # <center>Entrega de proyecto final</center>
-ALumno: Nicolas Alarcon Sanhueza
-Curso: SQL
-Comision: 53175
-Tutor: Jonatan Canchi
-Docente: Anderson Michel Torres
+@Alumno: Nicolas Alarcon Sanhueza
+@Curso: SQL
+@Comision: 53175
+@Tutor: Jonatan Canchi
+@Docente: Anderson Michel Torres
 
 ---
 
