@@ -632,8 +632,8 @@ El codigo es el siguente:
 ```
 </details>
 
-- La BD se arma mediante el archivo database_sctructure.sql situado en ./structure/database_structure
-- Y su populacion mediante el archivo population.sql  situado en ./structure/population.sql
+- La base de datos es creada mediante el archivo database_sctructure.sql situado en ./structure/database_structure
+- Para su populacion se utiliza el archivo population.sql  situado en ./structure/population.sql
 
 ## Objetos de la base de datos
 Los objetos de la base de datos incluyen las tablas mencionadas anteriormente, así como restricciones de clave externa que garantizan la integridad referencial entre las tablas. Estas restricciones aseguran que no se puedan realizar operaciones que violen las relaciones definidas entre las entidades, manteniendo la consistencia de los datos en todo momento.
