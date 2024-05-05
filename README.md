@@ -16,28 +16,6 @@ Docente: Anderson Michel Torres
 
 ---
 
-### **Consignas:**
-- La base de datos debe contener al menos:
-    * ~ 15 tablas, entre las cuales debe haber al menos 1 tabla de hechos,  2 tablas transaccionales.
-    * ~ 5 vistas.
-    * ~ 2 stored procedure.
-    * ~ 2  trigger.
-    * ~ 2 funciones
-    
-- El documento debe contener:
-    - Introducción
-    - Objetivo
-    - Situación problemática
-    - Modelo de negocio
-    - Diagrama de entidad relació
-    - Listado de tablas con descripción de estructura (columna,descripción, tipo de datos, tipo de clave)
-    - Scripts de creación de cada objeto de la base de datos
-    - Scripts de inserción de datos
-    - Informes generados en base a la información de la base
-    - Herramientas y tecnologías usadas
-
----
-
 ## Temática del Proyecto
 El proyecto se centra en desarrollar una base de datos ficticia que sirva como sistema de gestión integral para una empresa dedicada a la venta de productos. Esta base de datos ha sido creada en Python y el sistema de gestión de base de datos MySQL.
 
@@ -61,6 +39,10 @@ Las relaciones con los proveedores son fundamentales para garantizar la calidad 
 
 -Eficiencia en la Gestión de Pedidos:
 Gestionar eficientemente los pedidos es esencial para brindar una experiencia de compra sin problemas a los clientes. La base de datos almacena información detallada sobre cada pedido realizado, lo que permite gestionar eficazmente el flujo de pedidos, coordinar la entrega de productos y brindar un servicio excepcional a los clientes.
+
+## Diagrama entidad relacion (DER)
+
+   LINK : https://drive.google.com/file/d/1wPAeFafqJMfMt9v8pORMHkvum9Op1VBL/view?usp=sharing
 
 ## Listado de tablas y descripcion
 - Clientes: Almacena datos de los clientes que realizan compras en la empresa, como su nombre, apellido, país de residencia, dirección y correo electrónico. Esta tabla permite mantener un registro de los clientes y proporcionar un servicio personalizado.
@@ -723,6 +705,8 @@ Los objetos de la base de datos incluyen las tablas mencionadas anteriormente, a
    - Permisos: Permiso de lectura (SELECT) en la tabla Ventas de la base de datos basededatos
 
 ## Back up de la base de datos
+
+El directorio cuenta con un Backup de la base de datos en la carepta backups bejo el nombre de BK_base_Nicolas_Alarcon
 
 ## Herramientas y tecnologias usadas
 Para el desarrollo de la base de datos ficticia, se ha utilizado Python para generar el esquema de la base de datos, así como para crear los archivos CSV de muestra. MySQL se ha empleado como sistema de gestión de base de datos para almacenar y administrar la información.
