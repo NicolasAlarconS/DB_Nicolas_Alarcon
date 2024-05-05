@@ -198,7 +198,7 @@ Gestionar eficientemente los pedidos es esencial para brindar una experiencia de
 ## Estructura e ingesta de datos
 La base de datos ficticia se ha diseñado utilizando Python para generar el esquema de la base de datos y las tablas necesarias. Además, se han creado archivos CSV de muestra para poblar las tablas con datos iniciales. Estos archivos CSV han sido generados también mediante scripts en Python. 
 
-El codigo es el siguente:
+El codigo de python generador de los distintos csv es el siguente:
 <details>
   <summary>Mostrar código</summary>
    
