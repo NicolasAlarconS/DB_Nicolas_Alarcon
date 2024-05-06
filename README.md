@@ -177,7 +177,7 @@ Gestionar eficientemente los pedidos es esencial para brindar una experiencia de
    
    - Claves Foráneas: ID_Cliente (referencia a la tabla Clientes), ID_Producto (referencia a la tabla Productos), ID_Canal (referencia a la tabla Canales), ID_Venta (referencia a la tabla Ventas)
  
-- Auditoría(audit_table): Esta tabla se utiliza para realizar un seguimiento de las acciones realizadas en la base de datos. Cada registro incluye información detallada sobre la acción, como el tipo de acción realizada, el usuario que realizó la acción y la marca de tiempo en que ocurrió.
+- Auditoría (audit_table): Esta tabla se utiliza para realizar un seguimiento de las acciones realizadas en la base de datos. Cada registro incluye información detallada sobre la acción, como el tipo de acción realizada, el usuario que realizó la acción y la marca de tiempo en que ocurrió.
   
   - id (INT AUTO_INCREMENT PRIMARY KEY): Identificador único del registro de auditoría.
   
@@ -629,32 +629,62 @@ El codigo de python generador de los distintos csv es el siguente:
 - Para su populacion se utiliza el archivo population.sql  situado en ./structure/population.sql
 
 ## Objetos de la base de datos
-Los objetos de la base de datos incluyen las tablas mencionadas anteriormente, así como restricciones de clave externa que garantizan la integridad referencial entre las tablas. Estas restricciones aseguran que no se puedan realizar operaciones que violen las relaciones definidas entre las entidades, manteniendo la consistencia de los datos en todo momento.
+Los objetos de la base de datos incluyen las tablas mencionadas anteriormente, así como restricciones de clave externa que garantizan la integridad referencial entre las tablas. Estas restricciones aseguran que no se puedan realizar operaciones que violen las relaciones definidas entre las entidades, manteniendo la consistencia de los datos en todo momento. Tambien se incluye lo siguente:
 
 - Vistas:
    - vista_ingresos_totales_por_anio:
       - Propósito: Esta vista proporciona una visión general de los ingresos totales por año.
       - Columnas: Año, Número de transacciones, Venta bruta total, Venta neta total.
-        
+
+      EJEMPLO DE USO:
+      ```sql
+      SELECT * FROM vista_ingresos_totales_por_anio;
+      ```
+     
    - vista_ingresos_totales_por_pais:
       - Propósito: Ofrece una visión de los ingresos totales por país, incluyendo el número de transacciones, la venta bruta y neta totales, así como el porcentaje de participación de cada país en los ingresos totales.
       - Columnas: ID del país, País, Número de transacciones, Venta bruta total, Venta neta total, Porcentaje de participación.
+    
+      EJEMPLO DE USO:
+      ```sql
+      SELECT * FROM vista_ingresos_totales_por_pais;
+      ```
         
    - vista_clientes_mas_frecuentes:
       - Propósito: Muestra los clientes más frecuentes según el número de pedidos realizados.
       - Columnas: ID del cliente, Total de pedidos.
+    
+      EJEMPLO DE USO:
+      ```sql
+      SELECT * FROM vista_clientes_mas_frecuentes;
+      ```
         
    - vista_productos_mas_vendidos:
       - Propósito: Presenta una lista de los productos más vendidos, ordenados por el total de unidades vendidas.
       - Columnas: ID del producto, Producto, Total de unidades vendidas.
-        
+
+      EJEMPLO DE USO:
+      ```sql
+      SELECT * FROM vista_productos_mas_vendidos;
+      ```
+     
    - vista_ventas_por_canal:
       - Propósito: Detalla las ventas realizadas por cada canal de venta, incluyendo el número de transacciones, la venta bruta y neta totales, y el porcentaje de participación de cada canal en las ventas totales.
       - Columnas: Canal de venta, Número de transacciones, Venta bruta total, Venta neta total, Porcentaje de participación.
+    
+      EJEMPLO DE USO:
+      ```sql
+      SELECT * FROM vista_ventas_por_canal;
+      ```
         
    - vista_ventas_por_prioridad_envio:
       - Propósito: Ofrece una vista de las ventas agrupadas por la prioridad de envío, incluyendo el número de transacciones y los totales de venta bruta y neta.
       - Columnas: Prioridad, Número de transacciones, Venta bruta total, Venta neta total.
+    
+      EJEMPLO DE USO:
+      ```sql
+      SELECT * FROM vista_ventas_por_prioridad_envio;
+      ```
      
 - Procedimientos:
    - AgregarCliente:
