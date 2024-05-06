@@ -184,7 +184,7 @@ El codigo de python generador de los distintos csv es el siguente:
 <details>
   <summary>Mostrar código</summary>
    
-```
+```python
    import csv
    import random
    from faker import Faker
