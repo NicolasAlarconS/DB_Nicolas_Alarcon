@@ -176,6 +176,17 @@ Gestionar eficientemente los pedidos es esencial para brindar una experiencia de
    - Claves Primarias: ID_Pedido
    
    - Claves Foráneas: ID_Cliente (referencia a la tabla Clientes), ID_Producto (referencia a la tabla Productos), ID_Canal (referencia a la tabla Canales), ID_Venta (referencia a la tabla Ventas)
+ 
+- Auditoría(audit_table): Esta tabla se utiliza para realizar un seguimiento de las acciones realizadas en la base de datos. Cada registro incluye información detallada sobre la acción, como el tipo de acción realizada, el usuario que realizó la acción y la marca de tiempo en que ocurrió.
+  
+  - id (INT AUTO_INCREMENT PRIMARY KEY): Identificador único del registro de auditoría.
+  
+  - action (VARCHAR(10) NOT NULL): Tipo de acción realizada en la base de datos, como "INSERT", "UPDATE" o "DELETE".
+  
+  - user (VARCHAR(50) NOT NULL): Usuario que realizó la acción en la base de datos.
+  
+  - timestamp (TIMESTAMP DEFAULT CURRENT_TIMESTAMP): Marca de tiempo de cuándo se realizó la acción en la base de datos.
+
 
 ## Estructura e ingesta de datos
 La base de datos ficticia se ha diseñado utilizando Python para generar el esquema de la base de datos y las tablas necesarias. Además, se han creado archivos CSV de a para poblar las tablas.
