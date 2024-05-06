@@ -42,7 +42,9 @@ Gestionar eficientemente los pedidos es esencial para brindar una experiencia de
 
 ## Diagrama entidad relacion (DER)
 
-  ![](https://drive.google.com/file/d/1wPAeFafqJMfMt9v8pORMHkvum9Op1VBL/view?usp=sharing)
+<center>
+<img src="https://drive.google.com/file/d/1wPAeFafqJMfMt9v8pORMHkvum9Op1VBL/view?usp=sharing" style="width: 100% ; aspect-ratio:16/9">
+</center>
 
 ## Listado de tablas y descripcion
 - Clientes: Almacena datos de los clientes que realizan compras en la empresa, como su nombre, apellido, país de residencia, dirección y correo electrónico. Esta tabla permite mantener un registro de los clientes y proporcionar un servicio personalizado.
