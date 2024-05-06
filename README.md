@@ -178,7 +178,7 @@ Gestionar eficientemente los pedidos es esencial para brindar una experiencia de
    - Claves Foráneas: ID_Cliente (referencia a la tabla Clientes), ID_Producto (referencia a la tabla Productos), ID_Canal (referencia a la tabla Canales), ID_Venta (referencia a la tabla Ventas)
 
 ## Estructura e ingesta de datos
-La base de datos ficticia se ha diseñado utilizando Python para generar el esquema de la base de datos y las tablas necesarias. Además, se han creado archivos CSV de muestra para poblar las tablas con datos iniciales. Estos archivos CSV han sido generados también mediante scripts en Python. 
+La base de datos ficticia se ha diseñado utilizando Python para generar el esquema de la base de datos y las tablas necesarias. Además, se han creado archivos CSV de a para poblar las tablas.
 
 El codigo de python generador de los distintos csv es el siguente:
 <details>
