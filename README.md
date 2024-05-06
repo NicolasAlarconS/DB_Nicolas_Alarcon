@@ -691,19 +691,44 @@ Los objetos de la base de datos incluyen las tablas mencionadas anteriormente, a
       - Propósito: Permite agregar un nuevo cliente a la base de datos, verificando si ya existe antes de la inserción.
       - Parámetros: Nombre, Apellido, ID del país, Dirección, Correo.
         
+      EJEMPLO DE USO:
+      ```sql
+      CALL AgregarCliente('Juan', 'Pérez', 'PA001', 'Calle Principal 123', 'juan@example.com');
+      ```
+        
    - AgregarProducto:
       - Propósito: Facilita la inserción de un nuevo producto en la base de datos, verificando si ya existe antes de la inserción.
       - Parámetros: Nombre, Descripción, Precio unitario, Costo unitario.
+
+      EJEMPLO DE USO:
+      ```sql
+      CALL AgregarProducto('Camisa', 'Camisa de algodón con estampado de rayas', 25.99, 12.50);
+      ```
         
    - CalcularMetricasVentas:
       - Propósito: Calcula diversas métricas de ventas, incluyendo el número de transacciones, el promedio de venta por transacción, la venta bruta y neta totales, y el porcentaje de participación en las ventas totales.
+
+      EJEMPLO DE USO:
+      ```sql
+      CALL CalcularMetricasVentas();
+      ```
         
    - TotalVentasPorEmpleado:
       - Propósito: Calcula el total de ventas realizadas por cada empleado.
         
+      EJEMPLO DE USO:
+      ```sql
+      CALL TotalVentasPorEmpleado();
+      ```
+        
    - HistorialComprasCliente:
       - Propósito: Proporciona el historial de compras de un cliente específico, mostrando los detalles de cada pedido realizado por ese cliente.
       - Parámetro: ID del cliente.
+
+      EJEMPLO DE USO:
+      ```sql
+      CALL HistorialComprasCliente('CL00102');
+      ```
        
 - Triggers:
    - Triggers de auditoría:
