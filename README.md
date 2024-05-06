@@ -734,16 +734,37 @@ Los objetos de la base de datos incluyen las tablas mencionadas anteriormente, a
    - Triggers de auditoría:
       - Propósito: Registran eventos de inserción, actualización y eliminación en las tablas de Clientes, Productos y Pedidos en una tabla de auditoría.
       - Detalles: Los triggers registran información sobre la acción realizada, la descripción del evento, el usuario que realizó la acción y la marca de tiempo.
+      
+      EJEMPLO DE USO (Los registros quedaran en la tabla de auditoria):
+      ```sql
+      INSERT INTO clientes (IDCliente, Nombre, Apellido, IDPais, Direccion, Correo)
+      VALUES ('ID_Cliente_Nuevo', 'pedrito', 'Apellido_Nuevo', 'PA001', 'Dirección_Nueva', 'pedrito1234@gmol');  
+      ```
         
 - Funciones:
    - obtener_nombre_completo_empleado:
       - Propósito: Retorna el nombre completo de un empleado dado su ID.
+    
+      EJEMPLO DE USO:
+      ```sql
+      SELECT obtener_nombre_completo_empleado('ID_Empleado_Ejemplo');
+      ```
         
    - calcular_salario_anual_empleado:
       - Propósito: Calcula el salario anual de un empleado basado en su ID.
+    
+      EJEMPLO DE USO:
+      ```sql
+      SELECT ocalcular_salario_anual_empleado('ID_Empleado_Ejemplo');
+      ```
         
    - obtener_departamento_empleado:
       - Propósito: Obtiene el departamento al que pertenece un empleado utilizando su ID.
+    
+      EJEMPLO DE USO:
+      ```sql
+      SELECT obtener_departamento_empleado('ID_Empleado_Ejemplo');
+      ```
         
 ## Roles y permisos
 - usuario_admin
