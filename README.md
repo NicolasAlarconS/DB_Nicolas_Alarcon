@@ -727,7 +727,7 @@ Los objetos de la base de datos incluyen las tablas mencionadas anteriormente, a
 
       EJEMPLO DE USO:
       ```sql
-      CALL HistorialComprasCliente('CL00102');
+      CALL HistorialComprasCliente('ID_Cliente_Ejemplo');
       ```
        
 - Triggers:
